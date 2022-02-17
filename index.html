@@ -16,15 +16,15 @@
 
 <body>
     <main>
-        <section class="container my-5 ">
-            <h2 class="text-center fw-bold">Monthly Expenses</h2>
+        <section class="container mt-5 mb-3">
+            <h2 class="text-center fw-bold  text-primary ">Monthly Expenses</h2>
             <!-- image section -->
             <div class="row">
-                <div class="col-lg-6 col-12 mt-5">
-                    <img src="image1.jpg" class="img-fluid" alt="...">
+                <div class="col-lg-6 col-12 mt-3">
+                    <img src="image2.jpg" class="img-fluid" alt="..." style="height: 600px;">
                 </div>
                 <!-- form section -->
-                <div class="col-lg-6 col-12 mt-5">
+                <div class="col-lg-6 col-12 mt-3">
                     <h4 class="text-center">Income</h4>
                     <label for="">Income:</label>
                     <input id="income-field" class="form-control" type="text">
@@ -52,7 +52,7 @@
                     <h4 class="text-center mb-3">Balance: <span id="total-balance">00</span></h4>
 
                     <div class="row ms-5">
-                        <div class="col ms-5">
+                        <div class="col ms-2">
                             <!-- <label class="extralevel">Save</label> -->
                             <input id="save-money-input" class="form-control" type="text" placeholder="Save Money">
                         </div>
@@ -60,14 +60,14 @@
                         <div class="col ms-3">
                             <!-- <label class="extralevel">%</label> -->
                             <span> % </span> <button id="save-money" type="button"
-                                class="btn btn-primary ms-4">Save</button>
+                                class="btn btn-primary ms-5">Save</button>
                         </div>
                     </div>
                     <div class="error-section">
                         <p id="error-msg-three" class="error">Saving Should less Than Total balance!</p>
                     </div>
                     <h4 class="text-center mt-3">Saving Amount: <span id="saving-amount">00</span></h4>
-                    <h4 class="text-center">Remaining Balance:<span id="remaining-balance">00</span></h4>
+                    <h4 class="text-center">Remaining Balance: <span id="remaining-balance">00</span></h4>
                 </div>
         </section>
     </main>
