@@ -15,6 +15,7 @@ function Subtraction(firstValue, secondValue) {
     return firstValue - secondValue;
 }
 
+//calculate total balance
 
 document.getElementById('calculate').addEventListener('click', function () {
 
@@ -41,6 +42,7 @@ document.getElementById('calculate').addEventListener('click', function () {
 
 })
 
+// calculate total saving and reamining amount
 //math  = (10000 * 20) / 100 = 2000.
 
 document.getElementById('save-money').addEventListener('click', function () {
