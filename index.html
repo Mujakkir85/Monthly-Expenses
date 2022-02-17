@@ -34,7 +34,7 @@
 
                     <h4 class="text-center mt-2">Expenses</h4>
                     <div class="error-section">
-                        <p id="error-msg" class="error">Only Integer Input Is Excepted!</p>
+                        <p id="error-msg" class="error">Only Integer and Positive Input Is Exceptable!</p>
                     </div>
 
                     <label for="">Food:</label>
@@ -57,17 +57,18 @@
                     <div class="row ms-5">
                         <div class="col ms-5">
                             <!-- <label class="extralevel">Save</label> -->
-                            <input class="form-control" type="text">
+                            <input id="save-money-input" class="form-control" type="text" placeholder="Save Money">
                         </div>
                         <div class="col ms-3">
                             <!-- <label class="extralevel">%</label> -->
-                            <button type="button" class="btn btn-primary">Save</button>
+                            <button id="save-money" type="button" class="btn btn-primary">Save</button>
                         </div>
                     </div>
-
-                    <h4 id="saving-amount" class="text-center mt-2">Saving Amount: 5500</h4>
-                    <h4 id="remaining-balance" class="text-center">Remaining Balance: 4500</h4>
-
+                    <div class="error-section">
+                        <p id="error-msg-three" class="error">Saving Should less Than Total balance!</p>
+                    </div>
+                    <h4 class="text-center mt-2">Saving Amount: <span id="saving-amount">00</span></h4>
+                    <h4 class="text-center">Remaining Balance:<span id="remaining-balance">00</span></h4>
                 </div>
         </section>
     </main>
