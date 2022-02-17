@@ -33,6 +33,9 @@
                     <input id="income-field" class="form-control" type="text">
 
                     <h4 class="text-center mt-2">Expenses</h4>
+                    <div class="error-section">
+                        <p id="error-msg" class="error">Only Integer Input Is Excepted!</p>
+                    </div>
 
                     <label for="">Food:</label>
                     <input id="food-field" class="form-control" type="text">
@@ -45,10 +48,11 @@
                     <!-- <div class="text-centre"> -->
                     <button type="button" id="calculate" class="btn btn-primary calculatebutton my-3">Calculate</button>
                     <!-- </div> -->
-
-
-                    <h4 class="text-center">Total Expenses: <span id="total-expenses">5500</span></h4>
-                    <h4 class="text-center">Balance: <span id="total-balance">2500</span></h4>
+                    <div class="error-section">
+                        <p id="error-msg-two" class="error">Expenses Should less Than Total Income!</p>
+                    </div>
+                    <h4 class="text-center">Total Expenses: <span id="total-expenses">00</span></h4>
+                    <h4 class="text-center">Balance: <span id="total-balance">00</span></h4>
 
                     <div class="row ms-5">
                         <div class="col ms-5">
