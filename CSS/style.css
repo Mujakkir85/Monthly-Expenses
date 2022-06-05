@@ -1,4 +1,3 @@
-
 /* show error */
 .error {
     color: #fff;
@@ -11,13 +10,13 @@
     display: none;
 }
 
-.error-section{
+.error-section {
     width: 45%;
     margin: 0 auto;
 }
 
-
-
-
-
-
+/*
+h2{
+    color: red;
+}
+*/
